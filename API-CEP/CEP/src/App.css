@@ -1,0 +1,36 @@
+body{
+  background-image: url(assets/cinnamonroll.jpg);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(119, 166, 228);
+}
+
+input{
+  width: 250px;
+  text-align: center;
+  height: 90px;
+  border-radius: 20px;
+  font-size: medium;
+  background-image: url(assets/button.jpg);
+  background-size: cover;
+  color: rgb(119, 166, 228);
+}
+button{
+  width: 140px;
+  height: 90px;
+  border-radius: 20px;
+  background-image: url(assets/gif.gif);
+  background-size: cover;
+  color: rgb(168, 110, 190);
+}
+
+.container{
+  border-radius: 25px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-style: dashed;
+  border-color: white;
+  border-width: 12px;
+  backdrop-filter: blur(4px);
+}
